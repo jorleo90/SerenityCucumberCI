@@ -22,6 +22,7 @@ public class LoginPage extends PageObject {
 	WebElement lblMessage;
 
 	public void login(String user, String password) {
+		String prueba = "Esta es una tilde, αινσϊ";
 		txtUser.sendKeys(user);
 		txtPassword.sendKeys(password);
 		btnLogin.click();
