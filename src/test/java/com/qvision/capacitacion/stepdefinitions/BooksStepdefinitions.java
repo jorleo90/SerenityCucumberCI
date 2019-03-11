@@ -21,7 +21,7 @@ public class BooksStepdefinitions {
 
 	@When("^I type the quantity for every book$")
 	public void iTypeTheQuantityForEveryBook() {
-	    stepBook.typeQuantityBooks("1", "1", "1");
+	    stepBook.typeQuantityBooks("2", "1", "1");
 	}
 
 	@Then("^I validate the grand total$")
