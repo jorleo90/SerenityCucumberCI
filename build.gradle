@@ -22,7 +22,7 @@ dependencies {
     testCompile 'net.serenity-bdd:serenity-core:2.0.40'                  
     testCompile 'net.serenity-bdd:serenity-junit:2.0.40'                
     testCompile('junit:junit:4.12')
-    testCompile('org.assertj:assertj-core:3.11.1')
+    testCompile('org.assertj:assertj-core:3.12.1')
     testCompile('org.slf4j:slf4j-simple:1.7.25')
     
     compile 'net.serenity-bdd:serenity-core:2.0.40'
