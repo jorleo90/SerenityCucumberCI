@@ -26,7 +26,7 @@ public class BooksStepdefinitions {
 
 	@Then("^I validate the grand total$")
 	public void iValidateTheGrandTotal() {
-	    Assert.assertEquals(850, stepBook.validateGrandTotal());
+	    Assert.assertEquals(1150, stepBook.validateGrandTotal());
 	}
 	
 }
